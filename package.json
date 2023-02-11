@@ -1,0 +1,21 @@
+{
+  "name": "home-sweet-home",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hamzahtc/home-sweet-home.git",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "author": "hamzahatoch04@gmail.com",
+  "license": "MIT"
+}
